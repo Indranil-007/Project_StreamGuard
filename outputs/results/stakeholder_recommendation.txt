@@ -1,0 +1,11 @@
+### StreamGuard Executive Stakeholder Recommendation
+
+1. **Recommended Model for Deployment**: Logistic Regression
+   - Cross-Validated ROC-AUC: 0.756 | Test Set ROC-AUC: 0.841 | Test Recall: 0.872
+2. **Business Impact & Precision/Recall Trade-off**:
+   - In OTT streaming, customer acquisition costs ($50–$100+) drastically exceed the cost of proactive retention incentives (e.g., a $3–$5 discount coupon or personalized content prompt).
+   - Therefore, the pipeline prioritizes **High Recall** over raw precision: missing an at-risk subscriber (False Negative) leads to permanent subscriber loss, whereas offering an unnecessary discount to an active customer (False Positive) incurs only a minor margin concession.
+   - Operating at the chosen threshold yields high recall (87.2%) on held-out subscribers, protecting recurring monthly platform revenue.
+3. **Key Telemetry Drivers of Churn**:
+   - As shown by the Feature Importance analysis, the engineered **Engagement Efficiency Index (Watch-to-Fee Ratio)**, **Support Interactions**, and **Tenure Months** are the most powerful early-warning signals.
+   - Retention actions should be triggered immediately when a subscriber's monthly watch hours drop relative to their fee tier or when customer support tickets exceed 2 within a billing cycle.

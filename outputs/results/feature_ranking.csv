@@ -1,0 +1,13 @@
+Feature,Ranking,Selected
+Engagement_Efficiency_Index,1,True
+Engagement_Index,1,True
+Login_Frequency_Monthly,1,True
+Monthly_Fee_USD,1,True
+Preferred_Device_Mobile,1,True
+Preferred_Device_Smart TV,1,True
+Preferred_Device_Tablet,1,True
+Support_Interactions,1,True
+Tenure_Months,1,True
+Watch_Hours_Monthly,1,True
+Subscription_Type_Standard,2,False
+Subscription_Type_Premium,3,False

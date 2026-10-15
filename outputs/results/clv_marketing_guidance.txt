@@ -1,0 +1,8 @@
+### Guiding Marketing Customer Acquisition Budgets (CAC) Using CLV Forecasts
+
+1. **Strategic Budget Allocation**:
+   - The CLV model achieves an R2 of 0.88 and an MAE of $54.85, accurately forecasting the future cash flows of incoming subscriber profiles.
+   - Growth marketing can establish upper-bound Customer Acquisition Cost (CAC) thresholds based on segment-level predicted CLV to enforce the industry standard 3:1 CLV-to-CAC ratio.
+2. **Channel Optimization**:
+   - Telemetry-based CLV predictions allow marketing channels (social ads, Smart TV pre-installs, mobile app store bundles) to be evaluated not just on conversion volume, but on expected lifetime revenue yield.
+   - High-value subscriber personas (e.g. Standard/Premium tiers on Smart TVs with high projected engagement) justify elevated paid-search bids, whereas lower-CLV segments receive cost-efficient organic onboarding funnels.
