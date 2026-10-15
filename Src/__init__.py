@@ -1,1 +1,0 @@
-"""StreamGuard package initialization."""
